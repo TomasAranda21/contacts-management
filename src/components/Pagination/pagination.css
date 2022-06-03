@@ -1,0 +1,44 @@
+
+.container_pagination{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+
+
+.ul_pagination{
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+}
+
+
+.ul_pagination a{
+    border: 2px solid #ccc;
+    padding: 5px 10px;
+    color: rgb(130, 130, 130);
+
+    transition: all 0.5 ease
+}
+
+
+
+.ul_pagination a:hover{
+    background: #0d9488;
+    color: #fff;
+
+
+    transition: all 0.5s ease
+
+}
+
+
+.ul_pagination a:focus{
+    background: #0d9488;
+    color: #fff;
+
+
+    transition: all 0.5s ease
+
+}

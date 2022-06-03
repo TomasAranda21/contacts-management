@@ -1,0 +1,224 @@
+
+.title_form{
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background: #EEEDE7;
+    padding: 20px;
+    gap: 20px;
+    width: 80%;
+    margin: 200px auto;
+    border-radius: 20px;
+    position: fixed;
+    left: 10%;
+
+
+}
+
+
+.div_form_button{
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+.div_form_button button{
+    width: 100%;
+    text-align: center;    
+
+}
+
+
+
+
+
+/* FORM FROM LOGIN REGISTER AND PASSWORD */
+
+
+.div_container_all_form{
+
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-direction: column;
+
+}
+
+.container_img_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    color: #155e75;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.container_img_title_password{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    color: #155e75;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+.form_login_register{
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 120px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.496);
+    padding: 10px ;
+}
+
+.container_form_login_register{
+    padding: 20px 20px 100px;
+    width: 100%;
+}
+
+
+.div_form_container{
+    
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+
+
+.button_login_google{
+
+    background-color:#ae3333 !important;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-transform: uppercase;
+    padding: 8px;
+    font-size: 14px;
+    justify-content: center;
+    font-weight: bold;
+
+    transition: all 0.5s ease;
+
+
+}
+
+.button_login_google:hover{
+    background-color:#872525 !important;
+
+    transition: all 0.5s ease;
+
+}
+
+
+
+
+
+
+
+.p_form_LRP{
+    font-size: 15px;
+    text-align: center;
+}
+
+.p_form_LRP_Link, .p_form_password_Link{
+    font-weight: bold;
+    color: #017dbc;
+}
+
+.p_form_password_Link{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+
+.p_form_LRP_Link:hover, .p_form_password_Link:hover{
+
+    color: rgb(43, 106, 138);
+    text-decoration: underline;
+
+}
+
+
+
+@media (min-width: 768px) {
+    
+    .div_container_all_form{
+        flex-direction: row;
+        gap: 144px;
+
+    }
+
+    .container_img_title{
+
+        width: 33.33%;
+        font-size: 30px;
+        gap: 100px;
+
+
+    }
+
+    .container_form_login_register{
+        width: 30%;
+        padding: 0px 20px;
+
+    }
+
+    .container_img_title_password{
+        width: 33.33%;
+        margin-top: 80px;
+        gap: 100px;
+        font-size: 30px;
+    }
+
+
+
+}
+
+
+
+
+@media (min-width: 1025px) {
+ 
+    .div_form_button{
+        gap: 50px;
+        
+    }
+
+    .form{
+        width: 35%;
+        position: absolute;
+        left: 33%;
+
+    }
+
+}

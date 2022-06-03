@@ -1,0 +1,48 @@
+.button_principal{
+
+    background-color: #0d9488;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+    transition: all 0.5s ease;
+
+}
+
+
+.button_principal:hover{
+    background-color: #09625a;
+    transition: all 0.5s ease;
+}
+
+
+
+.button_form{
+    color: rgba(252, 252, 252, 0.843);
+    background-color: #1f4b97fa !important;
+    border: 1px solid #0000;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px;
+
+
+    transition: all 0.5s ease;
+
+}
+
+
+.button_form:hover{
+    background-color: #132e5b !important;
+    transition: all 0.5s ease;
+
+}
+

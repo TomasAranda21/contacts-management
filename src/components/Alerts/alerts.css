@@ -1,0 +1,23 @@
+.alert_firebase_error{
+  
+    border-color: #dc2626;
+    color: #dc2626;
+    background-color: #fecaca;
+
+}
+
+.alert_firebase{
+    padding: 8px;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.alert_firebase_success{
+    border-color: #0ea5e9;
+    color: #075985;
+    background-color: #dbeafe;
+}

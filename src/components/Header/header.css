@@ -1,0 +1,44 @@
+.header_nav{
+    display: flex;
+    justify-content:space-around;
+    padding: 24px;
+    background: #000;
+    color: #fff;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.header_nav h1{
+    font-size: 20px;
+}
+
+.header_nav button{
+    font-size: 18px;
+}
+
+
+.header_nav button:hover{
+    text-decoration: underline;
+}
+
+
+.header_log_reg{
+    text-align: center;
+    font-size: 20px;
+    background-color: #0f172a ;
+    padding: 20px;
+    color: rgb(223, 223, 223);
+    
+}
+
+.header_log_reg h1{
+    font-size: 26px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    
+}
+
+.header_log_reg p{
+    margin-bottom: 10px;
+}

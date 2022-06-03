@@ -1,0 +1,115 @@
+
+
+.table_contact{
+    margin: 0 auto;
+    margin-top: 35px;
+    box-shadow: 0 10px 25px -3px rgba(14, 4, 56, 0.222), 0 4px 6px -4px rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #e7d2cc3f;
+    width: 100%;
+
+}
+
+
+.table_contact tbody tr{
+    margin-top: 10px;
+    display: grid;
+    font-size: 15px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    word-break: break-all;
+    padding: 15px 5px;
+
+}
+
+.table_contact_data_contact{
+    border-bottom-width: 1px;
+    border-color: #d2d1d1;
+}
+
+
+.table_contact_data_contact td{
+    margin-top: 10px;
+    text-align: center;
+    color: #0A0708;
+    font-weight: normal;
+    font-size: 14px;
+    width: 100%;
+
+    white-space: wrap;
+
+}
+
+.div_contain_buttons{
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+.div_contain_buttons button{
+    font-size: 25px;
+}
+
+.btn_delete{
+    color: #dc2626;
+}
+
+.btn_edit{
+    color: #1e4bac;
+}
+
+
+
+
+/* NO CONTACTS */
+
+.div_no_contacts{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+
+
+
+}
+
+.div_no_contacts img{
+    margin: 0 auto;
+}
+
+
+
+@media (min-width: 768px) {
+    .table_contact_data_contact td{
+        font-size: 18px;
+
+    }
+}
+
+@media (min-width: 500px) {
+
+    .table_contact{
+        width: 80%;
+    }
+
+    .table_contact tbody tr{
+      
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .div_no_contacts{
+        font-size: 30px;
+
+    }
+}
+
+@media (min-width: 1300px) {
+    .table_contact{
+        width: 60%;
+    }
+}
