@@ -21,13 +21,7 @@ To deploy this project run
 Install my-project with npm
 
 ```bash
-    npm init vite
-    npm i firebase
-    npm i react-router-dom
-    npm i formik
-    npm i -save tailwindcss postcss autoprefixer
-    npm i -save sweetalert2-react-content
-    npm i -save sweetalert2
+    npm install
 ```
     
 ## Environment Variables
