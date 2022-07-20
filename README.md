@@ -5,7 +5,7 @@ I created this project to improve my Firebase, React and css skills. At the begi
 
 That's why you will see that this project needs tailwind because when removing the dependency it looked horrible, so I decided to leave it like that and will later remove the dependency.
 
-#### Project WebSite: https://login-register-firebase.netlify.app
+#### Project WebSite: https://contacts-management.netlify.app/user
 
 ## Usage
 
