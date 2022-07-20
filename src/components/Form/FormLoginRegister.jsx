@@ -49,14 +49,14 @@ const FormLoginRegister = ({handleSubmit, children, login, pass}) => {
                 {children}
                 {login && <Link to="/user/forgot-password" className=" p_form_password_Link">Forgot your password?</Link>}
 
-                <ButtonForm text = {!pass ? !login ? 'Signup' : 'Sing in' : "send instructions"} type = 'submit'/>
+                <ButtonForm text = {!pass ? !login ? 'Signup' : 'Sign in' : "send instructions"} type = 'submit'/>
 
                 
                 {!pass &&
                 
                     <button onClick={() => handleLoginGoogle()} type="button" className="button_login_google">
                     <img src={google} alt="" width="30"/>
-                        Sing in with google
+                      Sign in with google
                     </button> 
                   
                 }
